@@ -13,7 +13,7 @@ apps:
 parts:
   cam:
     plugin: go
-    source: ./src/webcamserv
+    source: https://github.com/liu-xiao-guo/webcamserv
     source-type: git
     stage-packages:
       - fswebcam
