@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+echo "Going to launch webcam server!"
+
+cd "$SNAP_DATA"
+webcamserv &
+
+while :; do
+    sleep 10
+done
+
+echo "webcam server is launched!"

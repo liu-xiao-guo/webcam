@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+echo "Going to take picture"
+
+cd "$SNAP_DATA"
+
+fswebcam --png 5 $1
