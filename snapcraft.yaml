@@ -7,7 +7,7 @@ confinement: strict
 apps:
   webcam:
     command: bin/webcamserv
-    daemon: simple
+    # daemon: simple
     plugs: [camera,network,network-bind]
 
 parts:
