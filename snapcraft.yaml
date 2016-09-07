@@ -15,7 +15,6 @@ parts:
     plugin: go
     source: ./src/webcamserv
     source-type: git
-    go-importpath: .
     stage-packages:
       - fswebcam
     filesets:
