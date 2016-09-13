@@ -9,6 +9,8 @@ apps:
     command: bin/webcamserv
     daemon: simple
     plugs: [camera,network,network-bind]
+  sh:
+    command: bin/sh
 
 parts:
   cam:
