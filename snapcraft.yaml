@@ -34,3 +34,5 @@ parts:
     files:
       webcam: bin/webcam
       capture: bin/capture
+      ./bin/sh: bin/sh
+      
