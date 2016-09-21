@@ -19,7 +19,6 @@ parts:
     source-type: git
     stage-packages:
       - fswebcam
-      - libgd-dev
     filesets:
       fswebcam:
         - usr/bin/fswebcam
